@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.5)),
+    url("./Cafe3.jpeg") center/cover no-repeat;
+}
+
+
+.container {
+    width: 300px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.685);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("./Struct4.jpg") center/cover no-repeat;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc8a;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #af744c;
+    color: rgba(255, 255, 255, 0.575);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+    button:hover {
+        opacity: 0.8;
+    }
